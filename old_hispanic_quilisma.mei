@@ -5,7 +5,7 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Antiphon. Dominus loquutus (Quilisma 2)</title>
+            <title>Antiphon. Dominus loquutus (Quilisma)</title>
          </titleStmt>
          <pubStmt/>
       </fileDesc>
@@ -16,15 +16,18 @@
             <score>
                <scoreDef>
                   <staffGrp>
-                     <staffDef n="1" lines.visible="false" notationtype="neume"/>
+                     <staffDef n="1" notationtype="neume"/>
                   </staffGrp>
                </scoreDef>
                <section>
                   <staff n="1">
                      <layer>
                         <syllable>
-                           <syl>Do-</syl>
+                           <syl wordpos="i" con="d">Do</syl>
                            <neume>
+			      <nc>
+				<quilisma/>
+			      </nc>
                               <nc tilt="e"/>
                               <nc tilt="n" rellen="l" intm="u">
                                  <hispanTick tilt="n" place=" left"/>
@@ -32,25 +35,22 @@
                            </neume>
                         </syllable>
                         <syllable>
-                           <syl>mi-</syl>
+                           <syl wordpos="m" con="d">mi</syl>
                            <neume>
                               <nc tilt="e"/>
                               <nc con="g" tilt="ne" rellen="l" intm="u"/>
-			      <nc>
-				<quilisma/>
-			      </nc>
                               <nc tilt="se" rellen="l" intm="d"/>
                            </neume>
                         </syllable>
                         <syllable>
-                           <syl>nus</syl>
+                           <syl wordpos="t">nus</syl>
                            <neume>
                               <nc s-shape="s"/>
                               <nc con="l" tilt="n" rellen="l"  intm="u"/>
                            </neume>
                         </syllable>
                         <syllable>
-                           <syl>lo-</syl>
+                           <syl wordpos="i" con="d">lo</syl>
                            <neume>
                               <nc tilt="se"/>
                               <nc angled="true" tilt="ne" intm="u"/>
@@ -60,7 +60,7 @@
                            </neume>
                         </syllable>
                         <syllable>
-                           <syl>quu-</syl>
+                           <syl wordpos="m" con="d">quu</syl>
                            <neume>
                               <nc tilt="e"/>
                               <nc tilt="n" curve="a" rellen="l" intm= "u"/>
@@ -68,39 +68,53 @@
                                  <hispanTick tilt="ne" place=" left"/>
                               </nc>
                            </neume>
-                           <syl>tus</syl>
+                        </syllable>
+                        <syllable>
+                           <syl wordpos="t">tus</syl>
                            <neume>
                               <nc tilt="ne"/>
                               <nc tilt="s" intm="d"/>
                               <nc tilt="ne" intm="u"/>
                            </neume>
-                           <syl>est</syl>
+                        </syllable>
+                        <syllable>
+                           <syl wordpos="s">est</syl>
                            <neume>
                               <nc tilt="e"/>
                            </neume>
-                           <syl>di-</syl>
+                        </syllable>
+                        <syllable>
+                           <syl wordpos="i" con="d">di</syl>
                            <neume>
                               <nc tilt="e"/>
                            </neume>
-                           <syl>sci-</syl>
+                        </syllable>
+                        <syllable>
+                           <syl wordpos="m" con="d">sci</syl>
                            <neume>
                               <nc tilt="e"/>
                               <nc tilt="n" rellen="l" intm="u"/>
                            </neume>
-                           <syl>pu-</syl>
+                        </syllable>
+                        <syllable>
+                           <syl wordpos="m" con="d">pu</syl>
                            <neume>
                               <nc tilt="e"/>
                               <nc con="g" tilt="ne" rellen="l" intm="u"/>
                               <nc tilt="se"  intm="d"/>
                            </neume>
-                           <syl>lis</syl>
+                        </syllable>
+                        <syllable>
+                           <syl wordpos="t">lis</syl>
                            <neume>
                               <nc tilt="e"/>
                               <nc con="g" tilt="e" intm="u"/>
                               <nc con="g" curve="a" tilt="s"  intm="u"/>
                               <nc tilt="n"  intm="u" rellen="l"/>
                            </neume>
-                           <syl>su-</syl>
+                        </syllable>
+                        <syllable>
+                           <syl wordpos="i" con="d">su</syl>
                            <neume>
                               <nc tilt="ne"/>
                               <nc tilt="se" rellen="s" intm="d"/>
@@ -111,43 +125,59 @@
                               <nc tilt="se" rellen="s" intm="d"/>
                               <nc tilt="ne" rellen="l" intm="u"/>
                            </neume>
-                        <syl>is</syl>
+                        </syllable>
+                        <syllable>
+                        <syl wordpos="t">is</syl>
                            <neume>
                               <nc tilt="ne"/>
                            </neume>
-                         <syl>ac-</syl>
+                        </syllable>
+                        <syllable>
+                         <syl wordpos="i" con="d">ac</syl>
                            <neume>
                               <nc tilt="ne"/>
                            </neume>
-                         <syl>ci-</syl>
+                        </syllable>
+                        <syllable>
+                         <syl wordpos="m" con="d">ci</syl>
                            <neume>
                               <nc tilt="se"/>
                               <nc angled="true" tilt="ne" intm="u"/>
                               <nc tilt="ne" rellen="l" curve="a" intm="u"/>
                            </neume>
-                         <syl>pi-</syl>
+                        </syllable>
+                        <syllable>
+                         <syl wordpos="m" con="d">pi</syl>
                            <neume>
                               <nc tilt="n"/>
                               <nc tilt="se" curve="c" rellen="s" intm="d"/>
                            </neume>
-                          <syl>te</syl>
+                        </syllable>
+                        <syllable>
+                          <syl wordpos="t">te</syl>
                            <neume>
                               <nc tilt="ne">
                                 <hispanTick tilt="ne" place=" above-left"/>
                               </nc>
                               <nc tilt="se" rellen="l" intm="d"/>
                            </neume>
-                           <syl>Spi-</syl>
+                        </syllable>
+                        <syllable>
+                           <syl wordpos="i" con="d">Spi</syl>
                            <neume>
                               <nc tilt="e"/>
                               <nc tilt="n" rellen="l" intm="u"/>
                            </neume>
-                            <syl>ri-</syl>
+                        </syllable>
+                        <syllable>
+                            <syl wordpos="m" con="d">ri</syl>
                            <neume>
                               <nc tilt="ne"/>
                               <nc tilt="se" rellen="s" intm="d"/>
                            </neume>
-                          <syl>tum</syl>
+                        </syllable>
+                        <syllable>
+                          <syl wordpos="t">tum</syl>
                            <neume>
                               <nc tilt="ne"/>
                               <nc con="g" tilt="ne" rellen="l" intm="u"/>
