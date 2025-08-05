@@ -16,7 +16,7 @@
             <score>
                <scoreDef>
                   <staffGrp>
-                     <staffDef n="1" notationtype="neume"/>
+                     <staffDef n="1" lines.visible="false" notationtype="neume"/>
                   </staffGrp>
                </scoreDef>
                <section>
